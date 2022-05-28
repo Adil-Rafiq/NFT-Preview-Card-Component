@@ -119,11 +119,14 @@ p{
 .heighlight{
     color: #2aebe6;
 }
-.icon-section div{
-    display: inline;
+
+.icon-section{
+    display: flex;
+    justify-content: space-between;
 }
-.right{
-    float: right;
+
+.child{
+    display: flex;
 }
 .align{
     padding-left: 4px;
